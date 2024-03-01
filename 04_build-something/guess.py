@@ -8,3 +8,18 @@
 # Type the whole code out instead of copy-pasting.
 # Typing out code, even if you just copy it, trains your coding skills!
 # Write your code below:
+
+import random
+
+num = random.randint(1, 5)
+guess = None
+
+while guess != num:
+    guess = input("please pick a number from 1 to 5: ")
+    guess = int(guess)
+
+    if guess == num:
+        print("Congrats you guessed the correct number")
+        break
+    else:
+        print("try again")
