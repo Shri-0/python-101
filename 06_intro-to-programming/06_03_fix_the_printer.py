@@ -3,4 +3,6 @@
 # How can you fix the code below to successfully print "xerox"
 # to your console?
 
+xerox = "xerox"
+
 print(xerox)
