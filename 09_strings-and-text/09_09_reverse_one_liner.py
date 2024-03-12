@@ -17,4 +17,4 @@ space = palindrome[-1]
 
 #print(toob + space + a + space + hid + space + i + space + dab + space + oot)
 
-print(palindrome[::-1])
+print(palindrome[::-1])     #I could have done just this :(
