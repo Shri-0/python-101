@@ -6,3 +6,15 @@
 
 start = 1
 stop = 100
+summ = 0
+
+
+for num in range(start + stop):
+
+    summ += num
+print(summ)
+
+
+
+
+#print(int(start+stop))
